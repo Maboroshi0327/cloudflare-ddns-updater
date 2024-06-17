@@ -1,0 +1,25 @@
+name: "Cloudflare DDNS updater"
+description: "Auto update IP address."
+version: "1.0.0"
+slug: "cloudflare_ddns_updater"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  DNS: null
+  CF_TOKEN: null
+  CF_ZONE_ID: null
+  CF_RECORD_ID: null
+  proxied: false
+  time: 300
+schema:
+  DNS: str
+  CF_TOKEN: str
+  CF_ZONE_ID: str
+  CF_RECORD_ID: str
+  proxied: bool
+  time: int
