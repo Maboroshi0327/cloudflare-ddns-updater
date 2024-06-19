@@ -1,5 +1,5 @@
 name: "Cloudflare DDNS updater"
-description: "Auto update IP address."
+description: "Auto update IP address"
 version: "1.2"
 slug: "cloudflare_ddns_updater"
 init: false
