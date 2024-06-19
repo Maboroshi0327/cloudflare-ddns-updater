@@ -1,8 +1,9 @@
 It is my first HA add-on. Thank [Kjell Hanken](https://github.com/kjell5317/addon-ddns) and 
 [SJ Chou](https://github.com/samejack/blog-content/blob/master/ddns/cf-ip-renew.sh), 
 Referencing their sample allowed me to complete this add-on.  
-__run.sh__: Reference [SJ Chou](https://github.com/samejack)'s [cf-ip-renew.sh](https://github.com/samejack/blog-content/blob/master/ddns/cf-ip-renew.sh).  
-Other details: Reference [Kjell Hanken](https://github.com/kjell5317/addon-ddns)'s project to make a HA add-on.
+__run.sh__: Refer to [SJ Chou](https://github.com/samejack)'s [cf-ip-renew.sh](https://github.com/samejack/blog-content/blob/master/ddns/cf-ip-renew.sh) and 
+[Kjell Hanken](https://github.com/kjell5317)'s [run.sh](https://github.com/kjell5317/addon-ddns/blob/main/run.sh).  
+__Other details__: Refer to [Kjell Hanken](https://github.com/kjell5317/addon-ddns)'s project to make a HA add-on.
 
 This add-on is used to automatically update Cloudflare's dns records with your latest public ip address.
 
@@ -21,7 +22,7 @@ Now you can install this add-on like any other home-assistant add-on.
    Your configuration should look similar to this:
 
 ```yaml
-DNS: maboroshi.idv.tw
+DNS: <YOUR_Domain_Name>
 CF_TOKEN: <YOUR_API_TOKEN>
 CF_ZONE_ID: <YOUR_ZONE_ID>
 CF_RECORD_ID: <YOUR_RECORD_ID>
