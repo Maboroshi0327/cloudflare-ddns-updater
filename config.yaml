@@ -1,6 +1,7 @@
 name: "Cloudflare DDNS updater"
 description: "Auto update IP address"
-version: "1.2"
+url: "https://github.com/Maboroshi0327/cloudflare_ddns_updater"
+version: "1.2.1"
 slug: "cloudflare_ddns_updater"
 init: false
 arch:
