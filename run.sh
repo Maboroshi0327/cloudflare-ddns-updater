@@ -48,7 +48,7 @@ do
     
     # Check public IP
     else
-        bashio::log.error "Unable to connect to http://ipv4.icanhazip.com"
+        bashio::log.error "Unable to connect to http://ipv4.icanhazip.com to check the public IP address"
     fi
 
     sleep "${time}"
