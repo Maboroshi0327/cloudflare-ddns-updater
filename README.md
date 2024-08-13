@@ -10,7 +10,7 @@ This add-on is used to automatically update Cloudflare's dns records with your l
 ## Installation
 
 Go to the add-on store of the supervisor and click on _repositories_ under the three dots.
-Copy [_https://github.com/Maboroshi0327/cloudflare_ddns_updater_](https://github.com/Maboroshi0327/cloudflare_ddns_updater) 
+Copy [_https://github.com/Maboroshi0327/cloudflare-ddns-updater_](https://github.com/Maboroshi0327/cloudflare-ddns-updater) 
 into the field and add this repository.
 Now you can install this add-on like any other home-assistant add-on.
 
