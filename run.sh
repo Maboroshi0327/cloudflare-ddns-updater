@@ -1,5 +1,10 @@
 #!/usr/bin/with-contenv bashio
 
+# This script is adapted from the following sources:
+# 1. Source 1: cf-ip-renew.sh - https://github.com/samejack/blog-content/blob/master/ddns/cf-ip-renew.sh (Apache 2.0 License)
+# 2. Source 2: run.sh - https://github.com/kjell5317/addon-ddns/blob/main/run.sh (MIT License)
+# MIT License
+
 DNS=$(bashio::config 'DNS')
 CF_TOKEN=$(bashio::config 'CF_TOKEN')
 CF_ZONE_ID=$(bashio::config 'CF_ZONE_ID')
